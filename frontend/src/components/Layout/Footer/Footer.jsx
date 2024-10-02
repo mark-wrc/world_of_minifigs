@@ -5,7 +5,7 @@ const Footer = () => {
 		<>
 			<footer className='py-1 bg-yellow-500'>
 				<p className='text-center mt-1 fw-bold'>
-					ShopIT - 2020-2023, All Rights Reserved
+					World of Minifigs - 2024, All Rights Reserved
 				</p>
 			</footer>
 		</>

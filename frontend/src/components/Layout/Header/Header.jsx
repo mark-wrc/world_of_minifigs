@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSearch, FaUserAlt, FaShoppingBasket, FaTimes } from 'react-icons/fa';
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/Logo.png';
 import { HiMiniBars3BottomLeft } from 'react-icons/hi2';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Header.css';
@@ -100,15 +100,15 @@ const Header = () => {
 
 	return (
 		<header
-		className={`flex h-[88px] w-[100vw] justify-between items-center md:px-4 px-2 border-b border-gray-300 transition-all duration-300 ease-in-out ${
-			isSticky
-				? 'fixed w-full top-0 z-50 shadow-lg left-0'
-				: 'relative'
-		} w-auto`}  // Ensures full width on small screens, adjusts on larger screens
-		style={{
-			position: 'relative',
-		}}
-	>
+			className={`flex h-[88px] w-[100vw] justify-between mx-12 items-center  border-b border-gray-300 transition-all duration-300 ease-in-out ${
+				isSticky
+					? 'fixed w-full top-0 z-50 shadow-lg left-0'
+					: 'relative'
+			} w-auto`} // Ensures full width on small screens, adjusts on larger screens
+			style={{
+				position: 'relative',
+			}}
+		>
 			{/* Menu Icon (Burger Menu) */}
 			<HiMiniBars3BottomLeft
 				className='md:hidden text-xl text-white cursor-pointer'
@@ -120,12 +120,11 @@ const Header = () => {
 				to='/'
 				className='flex items-center'
 			>
-				<div className='md:w-[300px] md:ml-[20px]  flex items-center justify-center'>
+				<div className='w-[450px] flex items-center justify-center'>
 					<img
 						src={logo}
 						alt='Logo'
-						className='w-[150px] z-40'
-						style={{ position: 'absolute', top: '0px' }}
+						className='w-full z-40 '
 					/>
 				</div>
 			</Link>
@@ -214,7 +213,7 @@ const Header = () => {
 			</nav>
 
 			{/* Right Section (User Icon, Cart Icon, Search Icon) */}
-			<div className='flex items-center gap-5'>
+			<div className='flex items-center gap-5 p-1 '>
 				{user ? (
 					<div
 						ref={dropdownRef}
