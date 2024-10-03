@@ -8,8 +8,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node ./backend/app.js",
 		"seeder": "node backend/seeder/seeder.js",
-		"DEV": "cross-env NODE_ENV=DEVELOPMENT nodemon backend/app.js",
-		"PROD": "cross-env NODE_ENV=PRODUCTION node backend/app.js"
+		"dev": "cross-env NODE_ENV=DEVELOPMENT nodemon backend/app.js",
+		"prod": "cross-env NODE_ENV=PRODUCTION node backend/app.js"
 	},
 	"keywords": [],
 	"author": "",
