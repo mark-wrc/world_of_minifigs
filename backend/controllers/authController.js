@@ -277,7 +277,7 @@ export const upload_avatar = catchAsyncErrorsMiddleware(
 	async (req, res, next) => {
 		const avatar_response = await upload_user_avatar_file(
 			req.body.avatar,
-			'brickdroid-images/avatars'
+			'world-of-minifigs-images/avatars'
 		);
 
 		//REMOVE PREVIOUS AVATAR
