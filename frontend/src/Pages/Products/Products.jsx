@@ -106,13 +106,14 @@ const Products = () => {
 											<p className='text-sm text-gray-200 truncate'>
 												{product.description}
 											</p>
-											<div className='flex justify-between items-center mt-1'>
+											<div className='flex justify-between items-center gap-2 my-2 '>
 												<p className='text-lg font-bold text-red-400'>
 													${discountPrice}
 												</p>
-												<div className='flex items-center gap-2'>
+												<div className='flex items-center gap-1'>
 													<StarRatings
-														starDimension='20px'
+														starDimension='16px'
+														starSpacing='1px'
 														starRatedColor='#d6a444'
 														rating={
 															Math.round(

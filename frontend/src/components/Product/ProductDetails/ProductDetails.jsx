@@ -191,7 +191,7 @@ const ProductDetails = () => {
 						<h2 className='text-lg font-semibold mb-2'>
 							Description
 						</h2>
-						<p className='text-balance leading-1 pb-2 font-serif  w-[95%] pe-2 text-justify bg-black'>
+						<p className='text-balance leading-1 pb-2 font-serif  w-[95%] pe-2 text-justify '>
 							{product?.description}
 						</p>
 					</div>

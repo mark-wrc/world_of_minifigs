@@ -7,8 +7,8 @@ export default [
 		ratings: 4.5,
 		images: [
 			{
-				public_id: 'shopit/demo/nkkjkta63uiazppzkmjf',
-				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/nkkjkta63uiazppzkmjf.jpg',
+				public_id: 'https://asset.cloudinary.com/drlh1fwbk/006537e83f66cb2b61e36cf1544fe285',
+				url: 'https://res.cloudinary.com/drlh1fwbk/image/upload/v1727917305/droid2_tcahcc.png',
 			},
 			{
 				public_id: 'shopit/demo/hz1iwdqzrvxtfxincvju',
