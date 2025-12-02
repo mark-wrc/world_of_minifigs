@@ -26,7 +26,7 @@ const SheetCloseWrapper = ({ children, ...props }) => (
 // Shared Navigation Item Component
 const NavigationItem = ({ to, icon, label, isActive, isExternalLink }) => {
   const { handleExternalClick } = useExternalNavigation(
-    "https://world-of-minifigs-fig-builder.vercel.app"
+    "https://minifig-designer.onrender.com"
   );
 
   return (

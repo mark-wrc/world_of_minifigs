@@ -89,7 +89,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-[85px] p-5">
           <div className="flex items-center">
             <NavLink to="/">
-              <img className="h-20 p-1" src={logo} alt="logo" />
+              <img className="h-20" src={logo} alt="logo" />
             </NavLink>
           </div>
           <div className="flex-grow flex justify-center">

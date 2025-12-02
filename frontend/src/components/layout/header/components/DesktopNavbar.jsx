@@ -4,7 +4,7 @@ import { useExternalNavigation } from "@/hooks/ExternalNavigation/useExternalNav
 
 const DesktopNav = () => {
   const { handleExternalClick } = useExternalNavigation(
-    "https://world-of-minifigs-fig-builder.vercel.app"
+    "https://minifig-designer.onrender.com"
   );
 
   return (

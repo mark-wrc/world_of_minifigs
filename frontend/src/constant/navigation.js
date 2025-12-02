@@ -39,9 +39,9 @@ export const navItems = [
   },
   {
     id: "minifig-builder",
-    label: "Builder",
+    label: "Designer",
     icon: Wrench,
-    path: "https://world-of-minifigs-fig-builder.vercel.app",
+    path: "https://minifig-designer.onrender.com",
     isExternalLink: true,
   },
 ];

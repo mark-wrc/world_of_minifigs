@@ -54,7 +54,7 @@ const allowedOrigins = [
 
   // Production URLs
   "https://www.worldofminifigs.com", // Main production site
-  "https://world-of-minifigs-fig-builder.vercel.app", // Minifig builder site
+  "https://minifig-designer.onrender.com", // Minifig designer site
 
   // insert more allowed links here if needed
 ];
