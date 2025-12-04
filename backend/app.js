@@ -49,8 +49,8 @@ app.use(cookieParser());
 
 const allowedOrigins = [
 	// temporary dev link for minifig builder site testing.
-	'http://localhost:5173',
-	'http://localhost:3000',
+	// 'http://localhost:5173',
+	// 'http://localhost:3000',
 
 	// Production URLs
 	'https://www.worldofminifigs.com', // Main production site
